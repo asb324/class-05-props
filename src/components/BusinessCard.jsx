@@ -1,6 +1,5 @@
-export default function BusinessCard() {
-  const name = "Ezra Cornell"
-  const email = "ezra@cornell.edu"
+export default function BusinessCard({name, email}) {
+
   return (
     <div style={
       {
