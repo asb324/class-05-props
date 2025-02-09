@@ -1,4 +1,4 @@
-export default function BusinessCard({name, email}) {
+export default function BusinessCard({name, email, logo}) {
 
   return (
     <div style={
